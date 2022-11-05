@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./INDEX.CSS">
+    <title>BMI CALCULATOR BY ABHISHEK</title>
+</head>
+<body>
+    <form id="form">
+        <section class="age-section">
+            <div id="label" >
+
+                <label for="age">Age</label>
+                <input id="age"  type="number"  name="age" id=""> 
+            </div>
+            <p>ages: 2-120</p>
+        </section>
+        <section>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" id="">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="">
+            <label for="male">Female</label>
+        </section>
+        <section class="height-input">
+            <div>
+
+                <label  for="">Height</label>
+                <input id="height" type="number" placeholder="cm">
+            </div>
+            <div>
+
+                <label for="">Weight</label>
+                <input id="weight" type="number" name="" id="" placeholder="kg">
+            </div>
+        </section>
+        <section>
+            <button type="submit">Calculate</button>
+            <button id="clear" >Clear</button>
+        </section>
+    </form>
+    
+    <div class="result">
+        <h1>Result</h1>
+        <p id="result-display"></p>
+        
+    </div>
+</body>
+<script src="../script/index.js"></script>
+</html>

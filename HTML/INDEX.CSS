@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif
+    
+    
+}
+form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 400px;
+    background-color: gray;
+    
+}
+.height-input{
+    display: flex;
+    flex-direction: column;
+
+}
+.age-section{
+    display: flex;
+    
+}
+#age{
+    width: 100px;
+    height: 20px;
+}
+#label{
+    margin-top: 10px;
+}
+#height, #weight{
+    width: 300px;
+text-align: left;
+  
+    margin-left: 10px;
+}
+.result{
+    background-color: navajowhite;
+    width: 400px;
+    /* margin-left: 200px; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Weather app with HTML CSS and JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BMI_Calculator"
+	}
+}
